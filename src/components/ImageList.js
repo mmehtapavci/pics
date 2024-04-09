@@ -1,5 +1,7 @@
-function ImageList() {
-    return <div>ImageList</div>
+import ImageShow from './ImageShow';
+
+function ImageList({ images }) {
+    return <div> ImageList: {images.length} </div>
 
 
 }
